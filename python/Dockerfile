@@ -8,5 +8,5 @@ LABEL org.opencontainers.image.authors=rx-m
 LABEL org.opencontainers.image.url=https://rx-m.com
 USER 1000:1000
 ENV PYTHONUNBUFFERED=1
-ENTRYPOINT ["./__main__.py"]
+ENTRYPOINT ["./hostinfo_server.py"]
 CMD ["9898"]
